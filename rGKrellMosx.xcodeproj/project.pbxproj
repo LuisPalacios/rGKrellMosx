@@ -174,7 +174,7 @@
 		A06B43C917CE788500745879 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Luis Palacios";
 				TargetAttributes = {
 					A06B43F117CE788500745879 = {
@@ -294,6 +294,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -356,6 +357,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rGKrellMosx/rGKrellMosx-Prefix.pch";
 				INFOPLIST_FILE = "rGKrellMosx/rGKrellMosx-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Parchis.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -370,6 +372,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rGKrellMosx/rGKrellMosx-Prefix.pch";
 				INFOPLIST_FILE = "rGKrellMosx/rGKrellMosx-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Parchis.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
